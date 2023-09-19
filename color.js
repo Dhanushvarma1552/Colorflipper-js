@@ -8,7 +8,6 @@ function change(){
     a=Math.floor(Math.random()*16)
     clr+=arr[a]
     }
-    console.log(clr)
     out.innerHTML=clr
     b.style.backgroundColor=clr
 }
